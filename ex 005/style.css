@@ -1,0 +1,56 @@
+ol {
+    background-color: lightyellow;
+}
+.numero-impar {
+    text-transform: uppercase;
+    font-weight:bolder;
+}
+
+.numero-par {
+    color: darkgreen
+}
+
+h1, h3 {
+    color: darkred;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+.tres-primeiras {
+    color: darkblue
+}
+
+.java {
+    background-color: lightpink;
+}
+
+.aliados:hover {
+    font-weight: bolder;
+}
+
+.stack:hover {
+    color: orange;
+}
+
+.w3:hover {
+    color: green;
+}
+
+.developer:hover {
+    color:black
+}
+
+.devdocs:hover {
+    color: yellow;
+}
+
+.trybe:hover {
+    color: green;
+}
