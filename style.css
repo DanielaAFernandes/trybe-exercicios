@@ -1,0 +1,43 @@
+header {
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    color: black;
+    margin-top: 30px;
+    margin-left: 90px;
+   
+
+}
+
+.nav-links li {
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    font-weight: 800;
+    margin-left: 90px;
+    color: navy;
+
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-left: 180px;
+    
+}
+
+.paragrafos {
+    width: 700px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+body {
+    background-color: lightgrey;
+}
