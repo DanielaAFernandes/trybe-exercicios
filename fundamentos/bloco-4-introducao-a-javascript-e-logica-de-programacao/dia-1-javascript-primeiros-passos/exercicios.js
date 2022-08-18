@@ -16,7 +16,7 @@ if(num1>num2) {
     console.log("b é maior que a");
 }*/
 
-const a = 87;
+/*const a = 87;
 const b = 54;
 const c = 27;
 if(a > b && c) {
@@ -25,4 +25,14 @@ if(a > b && c) {
     console.log("b é maior que a e c");
 } else {
     console.log("c é maior que a e b");
+}*/
+
+const a = 15;
+
+if(a > 0) {
+    console.log("positive");
+} else if(a < 0) {
+    console.log("negative");
+} else {
+    console.log("zero");
 }
