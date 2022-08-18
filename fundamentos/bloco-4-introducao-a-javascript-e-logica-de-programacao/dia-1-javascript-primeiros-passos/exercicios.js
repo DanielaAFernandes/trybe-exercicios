@@ -27,7 +27,7 @@ if(a > b && c) {
     console.log("c é maior que a e b");
 }*/
 
-const a = 15;
+/*const a = 15;
 
 if(a > 0) {
     console.log("positive");
@@ -35,4 +35,15 @@ if(a > 0) {
     console.log("negative");
 } else {
     console.log("zero");
+}*/
+
+let anguloA = 60;
+let anguloB = 90;
+let anguloC= 30;
+
+if(anguloA + anguloB + anguloC === 180){
+    console.log("true");
+} else {
+    console.log("false");
 }
+
