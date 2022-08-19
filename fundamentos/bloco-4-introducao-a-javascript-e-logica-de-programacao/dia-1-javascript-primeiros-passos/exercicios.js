@@ -134,3 +134,14 @@ if(number4 % 2 ==!0 || number5 % 2 ==!0 || number6 % 2 ==!0) {
     console.log(false);
 }*/
 
+const valorCusto = 500;
+const valorVenda = 700;
+
+if(valorCusto >=0 && valorVenda >= 0) {
+    const valorTotal = valorCusto * 1.2;
+    const lucroTotal = (valorVenda - valorTotal) * 1000;
+    console.log(lucroTotal);
+} else {
+    console.log("Erro");
+}
+
