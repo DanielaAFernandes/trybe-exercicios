@@ -37,7 +37,7 @@ if(a > 0) {
     console.log("zero");
 }*/
 
-let anguloA = 60;
+/*let anguloA = 60;
 let anguloB = 90;
 let anguloC= 30;
 
@@ -52,6 +52,66 @@ if(angulosPositivos) {
     };
 } else {
     console.log("Erro");
-}
+}*/
+
+
+/*let chessPiece = 14;
+
+if(chessPiece.toLowerCase() || chessPiece.toUpperCase() === "Queen") {
+    console.log("Rainha - Andar quantas casas quiser na horizontal, vertical ou diagonal");
+} else if(chessPiece.toLowerCase() || chessPiece.toUpperCase() === "Rook") {
+    console.log("Torre - Mover horizontalmente ou verticalmente até encontrar um obstáculo"); 
+} else if(chessPiece.toLowerCase() || chessPiece.toUpperCase()=== "Pawn") {
+    console.log("Peão - Andar uma casa em qualquer direção");
+} else if(chessPiece.toLowerCase() || chessPiece.toUpperCase() === "Bishop") {
+    console.log("Bispo - Mover diagonalmente até encontrar obstáculo");
+} else {
+    console.log("Inválido!");
+} */
+
+/*const chessPiece = 'bispo';
+
+switch (chessPiece.toLowerCase()) {
+  case 'rei':
+    console.log('Rei-> Uma casa apenas para qualquer direção.');
+    break;
+  case 'bispo':
+    console.log('Bispo-> Diagonal.');
+    break;
+  case 'rainha':
+    console.log('Rainha-> Diagonal, horizontal e vertical.');
+    break;
+  case 'cavalo':
+    console.log('Cavalo -> "L" pode pular sobre as peças.');
+    break;
+  case 'torre':
+    console.log('Torre -> Horizontal e vertical.');
+    break;
+  case 'peão':
+    console.log("Peão -> Apenas uma casa para frente, no primeiro movimento podem ser duas casas.");
+    break;
+  default:
+    console.log('Erro, peça inválida!');
+    break;
+}; */
+
+
+/*const grade = 16;
+
+if (grade < 0 || grade > 100) {
+  console.log("Erro, nota incorreta!");
+} else if (grade >= 90) {
+  console.log("A");
+} else if (grade >= 80) {
+  console.log("B");
+} else if (grade >= 70) {
+  console.log("C");
+} else if (grade >= 60) {
+  console.log("D");
+} else if (grade >= 50) {
+  console.log("E");
+} else {
+  console.log("F");
+}*/
 
 
