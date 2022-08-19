@@ -134,7 +134,7 @@ if(number4 % 2 ==!0 || number5 % 2 ==!0 || number6 % 2 ==!0) {
     console.log(false);
 }*/
 
-const valorCusto = 500;
+/*const valorCusto = 500;
 const valorVenda = 700;
 
 if(valorCusto >=0 && valorVenda >= 0) {
@@ -143,5 +143,36 @@ if(valorCusto >=0 && valorVenda >= 0) {
     console.log(lucroTotal);
 } else {
     console.log("Erro");
+}*/
+
+const salarioBruto = 4000;
+let inss;
+let ir;
+
+
+if(salarioBruto <= 1556.94) {
+    inss = salarioBruto * 0.08;
+} else if(salarioBruto<= 2594.92) {
+    inss = salarioBruto * 0.09;
+} else if (salarioBruto<=2594.92) {
+    inss = salarioBruto * 0.11;
+} else {
+    inss = 570.88;
 }
+
+if(salarioBruto <= 1903.98) {
+    ir = 0;
+} else if(salarioBruto <= 2826.65) {
+    ir = (salarioBruto * 0.075) - 142.80;
+} else if(salarioBruto <=3751.05) {
+    ir = (salarioBruto * 0.15) - 354.80;
+} else if(salarioBruto <=466.68) {
+    ir = (salarioBruto * 0.225) - 636.13;
+} else {
+    ir = (salarioBruto * 0.225) - 869.36;
+}
+
+console.log("Salário: "+(salarioBruto - ir - inss));
+
+
 
