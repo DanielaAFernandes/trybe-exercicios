@@ -46,7 +46,7 @@ for (let index = 1; index < numbers.length; index +=1) {
 
 console.log(menorNumero);*/
 
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+/*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let result = 0;
 
 for (let index = 0; index < numbers.length; index +=1) {
@@ -59,5 +59,14 @@ if(result ===0) {
     console.log('Nenhum valor encontrado');
 } else {
     console.log(result);
+}*/
+
+let numbers = [];
+for (let index = 0; index <= 25; index +=1) {
+    numbers.push(index);
 }
+
+console.log(numbers);
+
+
     
