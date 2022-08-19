@@ -114,4 +114,23 @@ if (grade < 0 || grade > 100) {
   console.log("F");
 }*/
 
+/*const number1 = 15;
+const number2 = 63;
+const number3 = 3;
+
+if(number1 % 2 ===0 || number2 % 2 ===0 || number3 % 2 ===0){
+    console.log(false);
+} else {
+    console.log(true);
+}*/
+
+/*const number3 = 14;
+const number4 = 15;
+const number5 =16;
+
+if(number4 % 2 ==!0 || number5 % 2 ==!0 || number6 % 2 ==!0) {
+    console.log(true);
+} else {
+    console.log(false);
+}*/
 
