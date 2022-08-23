@@ -16,7 +16,7 @@ console.log('A jogadora'+ ' '+ player.name+ ' '+ player.lastName+ ' '+ 'tem'+ ' 
 
 console.log('A jogadora possui'+' '+ player.medals.golden + ' '+ 'medalhas de ouro e'+ ' '+ player.medals.silver+ ' '+ 'medalhas de prata.');*/
 
-let names = {
+/*let names = {
     person1: 'João',
     person2: 'Maria',
     person3: 'Jorge',
@@ -24,6 +24,15 @@ let names = {
 
   for(let index in names){
       console.log('Olá'+ ' '+names[index]);
+  };*/
+
+  let car = {
+    model: 'A3 Sedan',
+    manufacturer: 'Audi',
+    year: 2020
   };
 
-  
+  for(let index in car){
+      console.log(index, car[index]);
+  }
+
