@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<main>
+    <form method="POST">
+        <label for="text">Digite seu nome completo:</label>
+        <input type="text" id="text" name="nome-completo" min="10" max="40"><br><br>
+        <label for="email">Digite o seu e-mail:</label>
+        <input type="email" id="email" name="email" min="10" max="50"><br><br>
+        <label for="destino">Qual é o seu destino favorito:</label><br>
+        <label for="destino1"><input type="radio" id="destino1" name="destino">Cidade
+        </label>
+        <label for="destino2"><input type="radio" id="destino2" name="destino">Campo
+        </label>
+        <label for="destino3"><input type="radio" id="destino3" name="destino">Praia
+        </label>
+        <label for="destino4"><input type="radio" id="destino4" name="destino">Montanhas
+        </label>
+        <p>Por que voce deveria ser a pessoa desenvolvedora a ganhar o concurso da Trybe?</p>
+        <textarea name="sobre-voce" id="text-area" cols="30" rows="10" maxlength="500"></textarea><br><br>
+        <label for="receber-oportunidades">
+            <input type="checkbox" id="receber-oportunidades">Deseja receber outras incríveis oportunidades oferecidas pela Trybe?
+        </label><br>
+        <label for="concordar">
+            <input type="checkbox" id="concordar">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+        </label><br><br>
+        <button type="submit" id="button-send">Enviar</button>
+        <button type="submit" id="clean">Limpar</button>
+    </form>
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
