@@ -7,6 +7,10 @@ window.onload = function(){
         localStorage.setItem('5-4-background-color', selected.value);
     })
 
+    select.addEventListener('mouseover', function(){
+        select.style.backgroundColor = "light blue";
+    })
+
     let inputFontSize = document.querySelector('input[name="font-size"]')
     inputFontSize.addEventListener('change', function(){
         let p = document.querySelector('p');
@@ -38,6 +42,11 @@ window.onload = function(){
 
         localStorage.setItem('5-4-font-family', familySelected.value);
 
+    })
+
+    let buttonBig = document.getElementById('button');
+    buttonBig.addEventListener('click', function(){
+        buttonBig.style.backgroundColor = "red";
     })
 
     let savedBackground = localStorage.getItem('5-4-background-color');
