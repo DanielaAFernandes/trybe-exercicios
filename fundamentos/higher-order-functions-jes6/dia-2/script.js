@@ -11,14 +11,14 @@
 
 // emailListInData.forEach(showEmailList);
 
-// const numbers = [19, 21, 30, 3, 45, 22, 15];
+const numbers = [19, 21, 30, 3, 45, 22, 15];
 
-// const findDivisibleBy3And5 = (number) => {
-//     return number % 3 === 0 && number % 5 === 0;
-// };
+const findDivisibleBy3And5 = (number) => {
+    return number % 3 === 0 && number % 5 === 0;
+};
 
-// const isDivisible = numbers.find(findDivisibleBy3And5);
-// console.log(isDivisible);
+const isDivisible = numbers.find(findDivisibleBy3And5);
+console.log(isDivisible);
 
 // const names = ['João', 'Irene', 'Fernando', 'Maria'];
 
